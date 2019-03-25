@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myLabel: UILabel!
     @IBOutlet weak var myTextField: UITextField!
+    @IBOutlet weak var verbTextField: UITextField!
+    @IBOutlet weak var adjectiveTextField: UITextField!
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -22,6 +24,13 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped(_ sender: UIButton)
     {
         myLabel.text = "My Uncle wants to go to the " + "\(myTextField.text ?? "Town")"
+    }
+    
+    @IBAction func stretch1Button(_ sender: UIButton)
+    {
+        performSegue(withIdentifier: "StretchOneSegue", sender: self)
+        
+        
     }
     
 }
