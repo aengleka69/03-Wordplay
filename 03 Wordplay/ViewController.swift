@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var myTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func buttonTapped(_ sender: UIButton)
+    {
+        let noun = myTextField.text
+        
+        myLabel.text = "My Uncle wants to go to the " + "\(noun)"
+    }
+    
 }
 
