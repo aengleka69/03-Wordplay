@@ -54,6 +54,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qC-2n-J8b">
+                                <rect key="frame" x="157" y="377" width="61" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Stretch 1"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -62,7 +67,7 @@
                     <connections>
                         <outlet property="myLabel" destination="LLN-l8-0Rj" id="GPK-bh-DNq"/>
                         <outlet property="myTextField" destination="qyh-d2-Y1t" id="WTO-7Q-mYS"/>
-                        <segue destination="vXK-Nk-rFq" kind="show" id="4C0-no-OcG"/>
+                        <segue destination="vXK-Nk-rFq" kind="show" identifier="StretchOneSegue" id="4C0-no-OcG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
