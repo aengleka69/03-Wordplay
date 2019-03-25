@@ -45,6 +45,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="myLabel" destination="LLN-l8-0Rj" id="GPK-bh-DNq"/>
                         <outlet property="myTextField" destination="qyh-d2-Y1t" id="WTO-7Q-mYS"/>
                     </connections>
                 </viewController>

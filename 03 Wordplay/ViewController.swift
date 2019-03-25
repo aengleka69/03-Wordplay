@@ -16,13 +16,12 @@ class ViewController: UIViewController {
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        myLabel.text = "My Uncle wants to go to the ______"
     }
 
     @IBAction func buttonTapped(_ sender: UIButton)
     {
-        let noun = myTextField.text
-        
-        myLabel.text = "My Uncle wants to go to the " + "\(noun)"
+        myLabel.text = "My Uncle wants to go to the " + "\(myTextField.text ?? "Town")"
     }
     
 }
