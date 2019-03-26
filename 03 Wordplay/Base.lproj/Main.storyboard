@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="1076" y="128.18590704647679"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="ZfU-1m-kwz">
             <objects>
-                <viewController id="vXK-Nk-rFq" sceneMemberID="viewController">
+                <viewController id="vXK-Nk-rFq" customClass="SecondViewController" customModule="_3_Wordplay" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yTj-dl-qv0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,6 +100,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="RXm-fT-oka"/>
                     </view>
+                    <connections>
+                        <outlet property="myLabelTwo" destination="0zf-gf-Gow" id="9jV-lz-Fxx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4xm-3g-40V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

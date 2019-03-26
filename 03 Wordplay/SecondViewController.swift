@@ -12,6 +12,9 @@ class SecondViewController: UIViewController
 {
     var character = ""
     
+    @IBOutlet var myLabelTwo: UILabel!
+    
+    
     override func viewDidLoad()
     
     {
