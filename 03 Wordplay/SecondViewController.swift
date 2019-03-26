@@ -16,12 +16,20 @@ class SecondViewController: UIViewController
     
     {
         super.viewDidLoad()
+    customizeViews()
 
         // Do any additional setup after loading the view.
         
         
     }
-    
+    func customizeViews()
+    {
+        if character == ""
+        {
+            myLabel.text = "sentence"
+            
+        }
+    }
 
     /*
     // MARK: - Navigation
