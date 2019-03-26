@@ -26,7 +26,7 @@ class SecondViewController: UIViewController
     {
         if character == ""
         {
-            myLabel.text = "sentence"
+          //  myLabel.text = "sentence"
             
         }
     }
