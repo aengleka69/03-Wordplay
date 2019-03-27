@@ -101,7 +101,7 @@
                         <viewLayoutGuide key="safeArea" id="RXm-fT-oka"/>
                     </view>
                     <connections>
-                        <outlet property="myLabelTwo" destination="0zf-gf-Gow" id="9jV-lz-Fxx"/>
+                        <outlet property="myLabelTwo" destination="0zf-gf-Gow" id="wGh-B8-vQ0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4xm-3g-40V" userLabel="First Responder" sceneMemberID="firstResponder"/>

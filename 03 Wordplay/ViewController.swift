@@ -29,9 +29,16 @@ class ViewController: UIViewController {
     @IBAction func stretch1Button(_ sender: UIButton)
     {
         performSegue(withIdentifier: "StretchOneSegue", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let noun = myTextField.text
+        let verb = verbTextField.text
+        let adjective = adjectiveTextField.text
         
-        
-        
+        let newvc = segue.destination as! SecondViewController
+        newvc.result = "My uncle went to the store and bought a really \(adjective ?? "ADJ") \(noun ?? "NOUN") and we \(verb ?? "VERB") at it the whole way home"
     }
     
 }

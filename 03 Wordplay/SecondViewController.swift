@@ -9,7 +9,7 @@ import UIKit
 
 class SecondViewController: UIViewController
 {
-    var character = ""
+    var result = "Aidan"
     
     @IBOutlet var myLabelTwo: UILabel!
     
@@ -18,20 +18,26 @@ class SecondViewController: UIViewController
         
     {
         super.viewDidLoad()
-        customizeViews()
         
         // Do any additional setup after loading the view.
-        
-        
     }
-    func customizeViews()
-    {
-        if character == ""
+        override func viewWillAppear(_ animated: Bool)
         {
-            //  myLabel.text = "sentence"
+        myLabelTwo.text = result
+            
+//        customizeViews()
             
         }
-    }
+        
+//    func customizeViews()
+//    {
+//        if character == "Stretch1"
+//        {
+//
+//            myLabelTwo.text = "My uncle went to the store and bought a really \(adjective ?? "ADJ") \(noun ?? "NOUN") and we + \(verb ?? "VERB") at it the whole way home"
+//
+//        }
+  //  }
     
     /*
      // MARK: - Navigation
