@@ -12,6 +12,7 @@ class SecondViewController: UIViewController
     var result = "Aidan"
     
     @IBOutlet var myLabelTwo: UILabel!
+    @IBOutlet weak var stretchTwoTF: UITextField!
     
     
     override func viewDidLoad()
@@ -29,7 +30,11 @@ class SecondViewController: UIViewController
             
         }
         
-//    func customizeViews()
+    @IBAction func stretchTwoTapped(_ sender: UIButton)
+    {
+        
+    }
+    //    func customizeViews()
 //    {
 //        if character == "Stretch1"
 //        {
